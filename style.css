@@ -54,23 +54,23 @@ table {
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url(tontra-bot-landing/assets/fonts/Poppins-Regular.ttf);
+  src: url(assets/fonts/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: "Poppins-Medium";
-  src: url(tontra-bot-landing/assets/fonts/Poppins-Medium.ttf);
+  src: url(assets/fonts/Poppins-Medium.ttf);
 }
 @font-face {
   font-family: "Poppins-SemiBold";
-  src: url(tontra-bot-landing/assets/fonts/Poppins-SemiBold.ttf);
+  src: url(assets/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
   font-family: "Poppins-Bold";
-  src: url(tontra-bot-landing/assets/fonts/Poppins-Bold.ttf);
+  src: url(assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
   font-family: "Poppins-Black";
-  src: url(tontra-bot-landing/assets/fonts/Poppins-Black.ttf);
+  src: url(assets/fonts/Poppins-Black.ttf);
 }
 :root {
   --main-bg-color: #FFFFFF;
