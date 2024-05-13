@@ -54,23 +54,23 @@ table {
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url(/tontra-bot-landing /assets/fonts/Poppins-Regular.ttf);
+  src: url(/assets/fonts/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: "Poppins-Medium";
-  src: url(/tontra-bot-landing /assets/fonts/Poppins-Medium.ttf);
+  src: url(/assets/fonts/Poppins-Medium.ttf);
 }
 @font-face {
   font-family: "Poppins-SemiBold";
-  src: url(/tontra-bot-landing /assets/fonts/Poppins-SemiBold.ttf);
+  src: url(/assets/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
   font-family: "Poppins-Bold";
-  src: url(/tontra-bot-landing /assets/fonts/Poppins-Bold.ttf);
+  src: url(/assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
   font-family: "Poppins-Black";
-  src: url(/tontra-bot-landing /assets/fonts/Poppins-Black.ttf);
+  src: url(/assets/fonts/Poppins-Black.ttf);
 }
 :root {
   --main-bg-color: #FFFFFF;
@@ -101,7 +101,6 @@ html, body, * {
 body {
   background: var(--main-bg-color);
   font: var(--font);
-  font-size: clamp(0.875rem, 0.7083rem + 0.5556vw, 1.125rem);
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
@@ -319,7 +318,7 @@ body main section#features .content ul > li div {
   transition: transform 0.3s linear;
 }
 body main section#features .content ul > li p {
-  font-size: 0.78rem;
+  font-size: clamp(0.75rem, 0.6667rem + 0.2778vw, 0.875rem);
 }
 body main section#features .content ul > li * {
   cursor: default;
@@ -400,7 +399,7 @@ body main section#benefits .content .comparison-table-grid div.table-header {
   text-transform: uppercase;
   font-size: clamp(0.8rem, 0.5867rem + 0.7111vw, 1.12rem);
   letter-spacing: 0.1rem;
-  font-family: var(--font-medium);
+  font-family: var(--font-medium, "Poppins-Medium");
   align-self: center;
   color: var(--main-bg-color, #FFFFFF);
 }
@@ -423,6 +422,7 @@ body main section#terms-conditions .content {
 body main section#terms-conditions .content p {
   font-size: 14px;
   text-align: left;
+  line-height: 150%;
 }
 body main section#terms-conditions .content > p:first-of-type {
   max-width: 800px;
